@@ -53,7 +53,7 @@ app.get('/', function (req, res) {
 			if(data.password==req.body.password){
 				console.log("Done Login");
 				
-				//console.log(req.session.userId);
+				
 				res.sendfile('Welcome.html');
 				
 			}else{
